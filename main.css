@@ -1,0 +1,129 @@
+/*This is the header css */
+body {
+    margin:0;
+    padding:0;
+}
+.titleWords {
+    font-size:40px;
+}
+#MI {
+    display: inline-block;
+    margin-top:10px;
+    color:rgb(184, 34, 34);
+    margin-bottom:0px;
+}
+#Health {
+    display:inline-block;
+    color:rgb(107, 201, 81);
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    margin:0 auto 20px auto;
+}
+.navbar a {
+    font-size:18px;
+    
+}
+.navbar {
+    width:400px;
+    display:flex;
+    justify-content:space-between;
+    align-self:flex-end;
+}
+
+/*This is where the main page css starts */
+.mainPage {
+    background-color: #cbcbcb;
+    height:100vh;
+}
+.contentContainer{
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+}
+.description {
+    display:flex;
+    flex-direction:column;
+    width:260px;
+    height:450px;
+    margin-left:50px;
+    margin-top:50px;
+}
+.beHealthy {
+    font-size:60px;
+    margin:0px;
+    font-weight:bold;
+}
+.browseMenu {
+    font-weight:bold;
+}
+.appleQuinoa {
+    width:300px;
+    height:450px;
+    margin-right:15px;
+}
+.fresh {
+    background-color:white;
+    padding:10px;
+    width:50px;
+    height:15px;
+    position:absolute;
+    left:683px;
+    bottom:215px;
+}
+.breakfastTag {
+    background-color:rgb(123, 205, 0);
+    padding:10px;
+    padding-left:20px;
+    position:absolute;
+    left:633px;
+    bottom:178px;
+}
+.pastaSalad {
+    width:300px;
+    height:450px;
+    margin-right:15px;
+}
+.sweet {
+    background-color:white;
+    padding:10px;
+    width:50px;
+    position:absolute;
+    right:367px;
+    bottom:215px; 
+}
+.lunchTag {
+    background-color:rgb(123, 205, 0);
+    padding:10px;
+    padding-left:40px;
+    position:absolute;
+    bottom:178px;
+    right:367px;
+}
+.shrimp {
+    width:300px;
+    height:450px;
+}
+.delicious {
+    background-color:white;
+    padding:10px;
+    width:80px;
+    position:absolute;
+    right:48px;
+    bottom:215px; 
+}
+.dinnerTag {
+    background-color:rgb(123, 205, 0);
+    padding:10px;
+    padding-left:40px;
+    position:absolute;
+    bottom:178px;
+    right:48px;
+}
+
+
+
